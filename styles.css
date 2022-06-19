@@ -1,0 +1,27 @@
+html{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(153,255,204,1));
+}
+
+h1{
+    text-align: center;
+    padding-left: 0 auto;
+    background: -webkit-linear-gradient(rgba(24, 160, 103, 0.603), rgba(153,255,204,9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.wrapped {
+    display: flex;  
+    justify-content: center;
+}
+
+.para > .anchor{
+    color: black;
+    text-decoration: none;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+
